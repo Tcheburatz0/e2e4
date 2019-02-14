@@ -4,7 +4,7 @@ node_js:
   - "8"
   - node
 script:
-  - npm run ci
+ 
   -echo "Running tests against $(node -v)..."
 jobs:
   include:
