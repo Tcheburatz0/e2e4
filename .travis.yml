@@ -1,8 +1,16 @@
 language: node_js
 node_js:
   - "6"
+  - "8"
+  - node
 script:
   - npm run ci
+  -echo "Running tests against $(node -v)..."
+jobs:
+  include:
+    -stage: Produce Coverage
+     node_js: node
+     script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 after_success: 
   - npm run coveralls
 cache: npm
