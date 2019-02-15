@@ -1,17 +1,13 @@
 # e2e4
+[![Build Status](https://travis-ci.org/Tcheburatz0/e2e4.svg?branch=master)](https://travis-ci.org/Tcheburatz0/e2e4)
+[![Coverage Status](https://coveralls.io/repos/github/Tcheburatz0/e2e4/badge.svg?branch=master)](https://coveralls.io/github/Tcheburatz0/e2e4?branch=master)
 
-[![Build Status](https://travis-ci.org/eastbanctechru/e2e4.svg?branch=master)](https://travis-ci.org/eastbanctechru/e2e4)
-[![Coverage Status](https://coveralls.io/repos/github/eastbanctechru/e2e4/badge.svg?branch=master)](https://coveralls.io/github/eastbanctechru/e2e4?branch=master)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Dependency Status](https://david-dm.org/eastbanctechru/e2e4.svg)](https://david-dm.org/eastbanctechru/e2e4)
-[![devDependency Status](https://david-dm.org/eastbanctechru/e2e4/dev-status.svg)](https://david-dm.org/eastbanctechru/e2e4?type=dev)
-[![npm version](https://badge.fury.io/js/e2e4.svg)](https://badge.fury.io/js/e2e4)
 
 Set of base classes and utilities to build unobtrusive list models. 
 This is abstract codebase which can be used to implement bridges to end-user frameworks (such as [Angular bridge](https://github.com/eastbanctechru/right-angled)).
 
 ## Documentation
-Documentation is available [here](http://eastbanctechru.github.io/e2e4)
+Documentation is available [here](http://Tcheburatz0.github.io/e2e4)
 
 ## How to build the project
 
